@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background:linear-gradient(90deg,rgb(36, 7, 183),rgb(255, 0, 153));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:fit-content;
+    
+}
+
+    
+
+form
+{
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 100px;
+    padding: 40px;
+    margin-left: 460px;
+}
+
+.login
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.email
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 24px;
+}
+
+.inputemail
+{
+    border: none;
+    font-size: 20px;
+    border-bottom-color: black;
+    line-height: 1.5;
+    padding: 6px;
+    margin-top: 14px;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid;
+    
+}
+.inputemail:hover
+{
+    background: rgb(66, 140, 171);
+}
+
+
+.password
+{
+    font-size :20px;
+    text-transform: capitalize;
+    margin-top: 24px;
+}
+
+.inputpassword
+{
+    border: none;
+    background-color: white;
+    line-height: 1.5;
+    margin-top:14px;
+    border-bottom:1px solid black;
+    outline: none;
+    font-size:20px;
+    padding:6px;
+}
+
+.inputpassword:hover
+{
+    background-color: rgb(66, 140, 171);
+}
+
+.forget
+{
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+
+button
+{
+    background:linear-gradient(90deg,rgb(36, 7, 183),rgb(255, 0, 153));
+    border-radius: 20px;
+    font-size: 20px;
+    width: 105px;
+    padding: 8px;
+    margin-top: 40px;
+    margin-left: 80px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: none;
+}
+
+
+
+
+
