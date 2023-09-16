@@ -32,13 +32,14 @@ h1{
 }
 
 .inputusername{
-    padding: 12px;
+    padding: 10px;
     text-transform: capitalize;
-    margin-left: 20px;
+    margin-left: 22px;
     border-radius: 14px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: none;
     outline:none;
+    width: 220px;
 }
 
 .inputusername:hover{
@@ -51,18 +52,20 @@ h1{
 }
 
 .inputpassword{
-    padding: 12px;
+    padding: 10px;
     text-transform: capitalize;
-    margin-left: 20px;
+    margin-left: 22px;
     border-radius: 14px;
     margin-top: 26px;
     border: none;
     outline:none;
+    width: 220px;
 }
+
 .forget{
     font-size: 16px;
     padding: 12px;
-    margin-left:16px ;
+    margin-left:20px ;
     color: aliceblue;
     margin-top: 4px;
     opacity: 0.74;
@@ -71,18 +74,19 @@ h1{
 button{
     font-size: 26px;
     border-radius: 20px;
-    width: 120px;
+    width: 140px;
     border: none;
     outline: none;
     text-align: center;
     margin-top: 34px;
-    margin-left: 70px;
+    margin-left: 60px;
     background:linear-gradient(90deg, #000000,   #434343);
     color: aliceblue;
     text-transform: capitalize;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
-    padding: 2px;
+    padding: 4px;
+    padding-bottom: 10px;
 }
 
 
